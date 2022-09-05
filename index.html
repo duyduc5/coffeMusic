@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="box_1">
+            <div class="logo">
+                <span class="logo_1">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <p style="font-size: 150%;"><b>Coffe</b>Music</p>
+                </span>
+                <tr>
+                    <li><i class="fa-solid fa-house"></i> Home </li>
+                    <li><i class="fa-solid fa-chart-column"></i> Trend </li>
+                    <li><i class="fa-solid fa-comments"></i> Feed </li>
+                    <li> Discover </li>
+                    <li><i class="fa-solid fa-newspaper"></i> New and notable </li>
+                    <li><i class="fa-solid fa-table"></i> Realese </li>
+                    <li><i class="fa-solid fa-bars-progress"></i> Events </li>
+                    <li>Your collection</li>
+                    <li><i class="fa-brands fa-adn"></i> favorite </li>
+                    <li><i class="fa-solid fa-heart"></i> Artist </li>
+                    <li><i class="fa-solid fa-mug-saucer"></i> Albums </li>
+                </tr>
+                <hr>
+                <div class="avt">
+                    <img class="aroud" src="https://i.pinimg.com/736x/33/3c/6f/333c6f507add601a3b2b2711c59f8405.jpg"
+                        alt="" width="18%">
+                    <p class="p1"><b>D.Duck</b></p>
+                    <button class="btn" onclick="myFunction()">
+                        <b>Click</b>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="box_2">
+            <div class="body_2">
+                <div class="flex">
+                    <div class="before-after">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="form_search">
+                        <span>
+                            <div class="search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="search" placeholder="Search your Mussic">
+                                <i class="fa-solid fa-circle-xmark" style="margin-left: 6rem;"></i>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div class="content">
+                    <p style="font-size:150%;">what's hot</p>
+                    <i class="fa-solid fa-fire"></i>
+                </div>
+                <div class="trending">
+                    <p style="font-size:1.3rem;"><b>Trending</b></p>
+                    <p style="font-size: 0.8rem; opacity: 0.5; margin-right: 20%;">
+                        more >
+                    </p>
+                </div>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">1 / 3</div> -->
+                        <img src="https://img.360dalat.com/crop/320x180/2021/08/02/211424736-125349173092076-3188425028449379787-n-fd7b.jpg"
+                            alt="" style="width:100%; border-radius: 10px;">
+                        <!-- <div class="text">Caption Text</div> -->
+                    </div>
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">2 / 3</div> -->
+                        <img src="https://img.360dalat.com/crop/320x180/2021/08/02/211424736-125349173092076-3188425028449379787-n-fd7b.jpg"
+                            alt="" style="width: 100%; border-radius: 10px;">
+                        <!-- <div class="text">Caption Two</div> -->
+                    </div>
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">3 / 3</div> -->
+                        <img src="https://img.360dalat.com/crop/320x180/2021/08/02/211424736-125349173092076-3188425028449379787-n-fd7b.jpg"
+                            alt="" style="width:100%; border-radius: 10px;">
+                        <!-- <div class="text">Caption Three</div> -->
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <div class="hot_trend" style="margin-top: -2%;">
+                    <h3>My playlist</h3>
+                    <p style="margin-right: 20%;">Show all</p>
+                </div>
+                <div class="form_todoList">
+                    <div class="playList playlist_music">
+                        <p class="playlist_1" style="margin-left: -3%;"><b>#</b></p>
+                        <p class="playlist_2" style="margin-left: -3%;"><b>TITLE</b></p>
+                        <p class="playlist_3" style="margin-left: -21%;"><b>ARTIST</b></p>
+                        <p class="playlist_4"><b>Time</b></p>
+                    </div>
+                    <div class="dow_list">
+                        <div class="playList Playlist_music">
+                            <p class="playlist_1"><b>01</b></p>
+                            <p class="playlist_2"><b>beggin</b></p>
+                            <p class="playlist_3"><b>madcon</b></p>
+                            <p class="playlist_4"><b>02:50</b></p>
+                        </div>
+                        <div class="playList Playlist_music">
+                            <p class="playlist_1"><b>02</b></p>
+                            <p class="playlist_2"><b>Love you</b></p>
+                            <p class="playlist_3"><b>duy duc</b></p>
+                            <p class="playlist_4"><b>02:38</b></p>
+                        </div>
+                        <div class="playList Playlist_music">
+                            <p class="playlist_1"><b>03</b></p>
+                            <p class="playlist_2"><b>my family</b></p>
+                            <p class="playlist_3"><b>garden</b></p>
+                            <p class="playlist_4"><b>03:50</b></p>
+                        </div>
+                        <div class="playList Playlist_music">
+                            <p class="playlist_1"><b>04</b></p>
+                            <p class="playlist_2"><b>remember</b></p>
+                            <p class="playlist_3"><b>erik</b></p>
+                            <p class="playlist_4"><b>02:20</b></p>
+                        </div>
+                        <div class="playList Playlist_music">
+                            <p class="playlist_1"><b>05</b></p>
+                            <p class="playlist_2"><b>A boy</b></p>
+                            <p class="playlist_3"><b>G Dragon</b></p>
+                            <p class="playlist_4"><b>03:50</b></p>
+                        </div>
+                        <div class="playList Playlist_music">
+                            <p class="playlist_1"><b>06</b></p>
+                            <p class="playlist_2"><b>Amor</b></p>
+                            <p class="playlist_3"><b>rem</b></p>
+                            <p class="playlist_4"><b>05:00</b></p>
+                        </div>
+                        <div class="playList Playlist_music">
+                            <p class="playlist_1"><b>07</b></p>
+                            <p class="playlist_2"><b>ice</b></p>
+                            <p class="playlist_3"><b>size</b></p>
+                            <p class="playlist_4"><b>02:45</b></p>
+                        </div>
+                        <div class="playList Playlist_music">
+                            <p class="playlist_1"><b>08</b></p>
+                            <p class="playlist_2"><b>color</b></p>
+                            <p class="playlist_3"><b>blues</b></p>
+                            <p class="playlist_4"><b>04:50</b></p>
+                        </div>
+                        <div class="playList Playlist_music">
+                            <p class="playlist_1"><b>09</b></p>
+                            <p class="playlist_2"><b>allright</b></p>
+                            <p class="playlist_3"><b>sia</b></p>
+                            <p class="playlist_4"><b>02:47</b></p>
+                        </div>
+                        <div class="playList Playlist_music">
+                            <p class="playlist_1"><b>10</b></p>
+                            <p class="playlist_2"><b>02:47</b></p>
+                            <p class="playlist_3"><b>stolen</b></p>
+                            <p class="playlist_4"><b>07:42</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="audio">
+                <div class="tools">
+                    <div class="icon_music">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-music"></i>
+                        <i class="fa-solid fa-align-justify"></i>
+                    </div>
+                    <div class="play_music">
+                        <i class="fa-solid fa-rotate-left"></i>
+                        <i class="fa-solid fa-backward"></i>
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-forward"></i>
+                        <i class="fa-solid fa-arrows-turn-to-dots"></i>
+                    </div>
+                    <div class="slider-cont">
+                        <!-- <i class="fa-solid fa-volume-high" style="font-size: 12px;"></i>
+                        <input type="range" min="0" max="100" value="50" class="volum_input">
+                        <p style="font-size: 10px;">91</p> -->
+                        <div class="slider">
+                            <input type="range" min="0" max="100" value="50">
+                            <progress min="0" max="100" value="50"></progress>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist_Time">
+                    <p>00:00</p>
+                    <div class="playsong_1"></div>
+                    <p>03:22</p>
+                </div>
+            </div>
+        </div>
+        <div class="box_3">
+
+        </div>
+    </div>
+    </div>
+
+</body>
+<script src="./main.js">
+</script>
+
+</html>

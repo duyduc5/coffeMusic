@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Open+Sans:ital,wght@1,300&family=Roboto+Slab&family=Roboto:ital,wght@0,100;0,900;1,700;1,900&family=Sonsie+One&display=swap');
+
+html {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 62.5%;
+}
+
+.logo {
+    margin-left: 13%;
+}
+
+.container {
+    width: 65%;
+    height: 83%;
+    background-color: silver;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dark-mode {
+    background-color: purple;
+    background-image: linear-gradient(to right, rgb(122, 122, 253), rgb(240, 76, 240));
+    color: rgb(25, 26, 25);
+}
+
+button {
+    width: 21%;
+    height: 1.5rem;
+    border-radius: 5px;
+    font-size: 100%;
+    border: 0;
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.logo_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -32%;
+    padding-top: 0.7rem;
+}
+
+.fa-mug-hot {
+    font-size: 395%;
+    color: Brown;
+    margin-bottom: 1.6rem;
+}
+
+.logo_1 p {
+    font-size: 1rem;
+}
+.logo_1 b {
+    color: Brown;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 10%;
+    font-size: 0.7rem;
+}
+
+li i {
+    margin-right: 0.5rem;
+}
+
+hr {
+    width: 114.5%;
+    margin-left: -15%;
+    opacity: 0.5;
+}
+
+.box_1 {
+    background-color: white;
+    width: 25%;
+    height: 100%;
+    margin-left: 0%;
+    border-radius: 20px 0 0 20px;
+}
+
+.aroud {
+    border-radius: 50%;
+    margin-right: 40%;
+}
+
+.avt {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.fa-arrow-right-from-bracket {
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+li:hover {
+    background-color: silver;
+    width: 120%;
+    height: 5%;
+    margin-left: -12%;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: 0.7rem;
+}
+
+.input_1 {
+    background-color: #ECECEC;
+    border: 0;
+    width: 150%;
+    height: 2rem;
+    /* border-radius: 20px; */
+    padding-left: 3rem;
+    position: relative;
+}
+
+input {
+    color: black;
+    border: none;
+    outline: none;
+}
+
+.clear {
+    background-color: #ECECEC;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-left: 9.5%;
+}
+
+.p1 {
+    margin-left: -37%;
+    margin-top: 16%;
+    font-size: 1rem;
+}
+
+.fa-arrow-right {
+    margin-left: 0.5rem;
+}
+
+.form_search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 68%;
+    height: 2rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+.search input {
+    background-color: white;
+    border: 0;
+    margin-left: 0.5rem;
+}
+
+span {
+    margin-right: 3%;
+}
+
+.fa-circle-xmark {
+    margin-left: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: -1.5rem;
+    margin-left: -2rem;
+}
+
+.before-after {
+    margin-left: 2rem;
+}
+
+.box_2 {
+    background-color: silver;
+    width: 40%;
+    height: 85%
+}
+
+.body_2 {
+    /* padding-left: ; */
+    margin-left: -28%;
+}
+
+.content {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: -1rem;
+}
+.slider-cont{
+    box-shadow: 0 1px 0 rgb(0 , 0 , 0 ,0,1);
+    padding: 25px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.slider{
+    position: relative;
+    width: 158px;
+    height: 8px; 
+}
+.slider input[type="range"]{
+    position: absolute;
+    left:-2;
+    top: 0;
+    width: 154px;
+    height: 8px;
+    -webkit-appearance: none;
+    background: transparent;
+    z-index: 99;
+}
+.slider input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid rgb(9 , 205 , 240);
+    cursor: pointer;
+    box-shadow: 0 0 0 1px #fff;
+    border-radius: 50%;
+}
+.slider input::-webkit-slider-thumb:hover{
+    transform: scale(1.1);
+}
+
+.slider progress {
+    width: 150px;
+    height: 8px;
+    -webkit-animation: none;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.slider progress::-webkit-progress-bar {
+    background: black;
+}
+.slider progress::-webkit-progress-value {
+    background: blue;
+}
+.sliderValue{
+    font-family: "Google sans Regular";
+    width: 15px;
+    height: 20px;
+    /* margin-left: ; */
+    text-align: center;
+}
+
+
+
+.fa-fire {
+    color: red;
+    margin-left: 0.2rem;
+    font-size: 1rem;
+}
+
+.content p {
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.trending {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -9%;
+}
+
+.slideshow-container {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+    margin-top: -4%;
+    margin-left: 0.1rem;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+.playlist_Time{
+    margin-top: -8%;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.hot_trend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: -1%; */
+}
+.hot_trend h3 {
+    color: green;
+    font-size: 150%;
+}
+.hot_trend p {
+    opacity: 0.5;
+}
+.next {
+    right:0.1%;
+    border-radius: 3px 0 0 3px;
+}
+.playList{
+    display: grid;
+    grid-template-columns: 0% 30% 32% 0%;
+    gap: 1rem;
+    padding: 0.3rem 0px;
+    margin-left: 1rem;
+}
+.Playlist_music:hover{
+    background-color: #f05656;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30%;
+}
+.dow_list{
+    height:5rem;
+    background-color: silver;
+    overflow: auto;
+    width: 80%;
+}
+.form_todoList{
+    margin-top: -5%;
+}
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.fa-arrow-left:hover{
+    background-color: white;
+    width: 0.8rem;
+    height:0.8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-arrow-right:hover{
+    background-color: white;
+    width: 0.8rem;
+    height:0.8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active,
+.dot:hover {
+    background-color: #717171;
+} 
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+.box_3{
+    width: 10%;
+}
+.fa-music{
+    margin-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.audio{
+    background-color: rgb(240, 202, 202);
+    width: 100%;
+    height: 15%;
+    margin-left: -26%;
+    margin-top: 10%;
+    border-radius: 10px 10px 0px 0px;
+}
+.tools{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-play{
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+.icon_music{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -13%;
+}
+.fa-backward{
+    margin-left: 0.2rem;
+}
+.play_music{
+    margin-left: 15%;
+    margin-right: -15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-forward{
+    margin-right: 0.3rem;
+}
+.slider{
+    margin-left: 25%;
+}
+.play_volumn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.playlist_Time {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    padding-left: 5%;
+    margin-top: -5%;
+}
+.playsong_1 {
+    background-color: #000;
+    width: 80%;
+    height:0.2rem;
+}
